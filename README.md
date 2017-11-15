@@ -1,0 +1,2 @@
+# springboot-redis
+springboot与redis整合学使用redisTemplate
