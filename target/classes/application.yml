@@ -1,0 +1,15 @@
+server:
+  port: 8090
+  tomcat:
+    uri-encoding: UTF-8
+    
+spring:
+  #database: 1
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1
